@@ -11,7 +11,7 @@ def index(request):
 
     context = {
 
-        'categories' : categories
+        "categories" : categories,
     }
 
     return render(request, 'main/index.html', context)
